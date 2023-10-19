@@ -7,6 +7,7 @@ library(openxlsx)
 
 help(read.xlsx)
 
-icpData = read.xlsx("C:/...file.xlsx", sheet="")
+#This is an example... change the http: to match the one you've uploaded
+icpData = read.xlsx('https://github.com/ValenteJJ/OccupancyClosureMS/blob/main/SimulationParameters.xlsx?raw=true', sheet='Interval0')
 
 # Test to make sure this works
